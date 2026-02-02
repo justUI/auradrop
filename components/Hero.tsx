@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero: React.FC = () => {
   return (
-    <section className="relative pt-24 sm:pt-32 pb-20 sm:pb-40 px-4 sm:px-6">
+    <section className="relative pt-24 sm:pt-32 pb-20 sm:pb-40 px-4 sm:px-6 overflow-hidden">
       {/* Background elements */}
       <div className="absolute top-1/4 -right-20 w-64 sm:w-96 h-64 sm:h-96 bg-[#CCFF00] opacity-10 blur-[120px] rounded-full overflow-hidden"></div>
       <div className="absolute bottom-0 -left-20 w-48 sm:w-80 h-48 sm:h-80 bg-blue-600 opacity-5 blur-[100px] rounded-full overflow-hidden"></div>
