@@ -1,12 +1,12 @@
-import Navbar from "@/components/Navbar";
-import Hero from "@/components/Hero";
-import Problem from "@/components/Problem";
-import Solution from "@/components/Solution";
-import Audience from "@/components/Audience";
-import MarketOpportunity from "@/components/MarketOpportunity";
-import Flywheel from "@/components/Flywheel";
-import Waitlist from "@/components/Waitlist";
-import Footer from "@/components/Footer";
+import Navbar from "@/components/landing/Navbar";
+import Hero from "@/components/landing/Hero";
+import Problem from "@/components/landing/Problem";
+import Solution from "@/components/landing/Solution";
+import Audience from "@/components/landing/Audience";
+import MarketOpportunity from "@/components/landing/MarketOpportunity";
+import Flywheel from "@/components/landing/Flywheel";
+import Waitlist from "@/components/landing/Waitlist";
+import Footer from "@/components/landing/Footer";
 
 export default function Home() {
   return (
